@@ -1,2 +1,2 @@
-import { CounterHandler } from './CounterHandler'
-export default CounterHandler
+import { CounterHandler } from "./CounterHandler";
+export default CounterHandler;
