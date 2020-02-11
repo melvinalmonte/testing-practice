@@ -5,7 +5,7 @@ import App from "./App";
 describe("Test Counter", () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = mount(<App/>);
+    wrapper = mount(<App />);
   });
   it("should render", () => {
     expect(wrapper.find("h1").text()).toBe("counter: 0");
