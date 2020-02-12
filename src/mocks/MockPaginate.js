@@ -1,8 +1,8 @@
 import React from "react";
-import CounterHandler from "./components/paginate/helpers";
-import Paginate from "./components/paginate";
+import Paginate from "../components/paginate";
+import CounterHandler from "../components/paginate/helpers";
 
-function App() {
+export const MockPaginate = () => {
   const lastPage = 5;
   const counter = CounterHandler(1, lastPage);
 
@@ -16,6 +16,4 @@ function App() {
       lastPage={lastPage}
     />
   );
-}
-
-export default App;
+};
