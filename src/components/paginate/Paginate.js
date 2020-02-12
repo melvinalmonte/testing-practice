@@ -10,13 +10,13 @@ const Button = props => (
 export const Paginate = props => {
   return (
     <div>
+      <h1>
+        {props.initPage} of {props.lastPage}
+      </h1>
       <Button btnTitle="first" btnAction={props.first} />
       <Button btnTitle="prev" btnAction={props.prev} />
       <Button btnTitle="next" btnAction={props.next} />
       <Button btnTitle="last" btnAction={props.last} />
-      <h1>
-        {props.initPage} of {props.lastPage}
-      </h1>
     </div>
   );
 };
